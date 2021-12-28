@@ -1,3 +1,21 @@
+# 安装
 ```
-npm i -D rollup-plugin-babel @babel/core core-js@2 @babel/preset-env @babel/preset-react @babel/plugin-proposal-decorators @rollup/plugin-node-resolve @rollup/plugin-commonjs rollup-plugin-typescript2 typescript rollup-plugin-terser rollup-plugin-postcss postcss cssnano autoprefixer rollup-plugin-serve rollup-plugin-livereload @rollup/plugin-json @rollup/plugin-alias rollup-plugin-eslint rollup-plugin-visualizer rollup-plugin-replace react@16 react-dom@16 @types/react @types/react-dom eslint@7 rollup-plugin-eslint
+npm install -S grp-react-ui-es
+```
+
+# 使用
+```
+import React from 'react';
+import ReactDom from 'react-dom';
+import { Button, Progress } from 'grp-react-ui-es';
+import 'grp-react-ui-es/dist/css/index.css';
+const App = () => {
+  return (
+    <div>
+      <Button size="lg" btnType="danger" disabled onClick={() => console.log(131231)}>button</Button>
+      <Progress percent={89} theme="primary" />
+    </div>
+  );
+};
+ReactDom.render(<App />, document.getElementById('root'));
 ```
