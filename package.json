@@ -1,6 +1,6 @@
 {
   "name": "grp-react-ui-es",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个react组件库",
   "main": "./dist/bundle.umd.js",
   "module": "./dist/bundle.es.js",
